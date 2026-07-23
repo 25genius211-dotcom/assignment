@@ -1,0 +1,227 @@
+/* ===============================
+   Tablet (1024px 이하)
+================================ */
+
+@media (max-width:1024px){
+
+header{
+
+    padding:0 25px;
+
+}
+
+nav{
+
+    gap:15px;
+
+}
+
+.overlay h1{
+
+    font-size:42px;
+
+}
+
+.overlay p{
+
+    font-size:18px;
+
+}
+
+.search-box{
+
+    width:90%;
+
+}
+
+.grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+#map{
+
+    height:500px;
+
+}
+
+}
+
+
+/* ===============================
+   Mobile (768px 이하)
+================================ */
+
+@media (max-width:768px){
+
+header{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:15px;
+
+}
+
+.logo{
+
+    margin-bottom:10px;
+
+    font-size:26px;
+
+}
+
+nav{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+.hero{
+
+    margin-top:120px;
+
+    height:450px;
+
+}
+
+.overlay{
+
+    padding:20px;
+
+}
+
+.overlay h1{
+
+    font-size:34px;
+
+    text-align:center;
+
+}
+
+.overlay p{
+
+    font-size:17px;
+
+    text-align:center;
+
+}
+
+.search-box{
+
+    flex-direction:column;
+
+    border-radius:20px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+}
+
+.search-box button{
+
+    width:100%;
+
+    height:60px;
+
+}
+
+.grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.place-card img{
+
+    height:220px;
+
+}
+
+#map{
+
+    height:400px;
+
+}
+
+.category{
+
+    width:95%;
+
+}
+
+.map-section{
+
+    width:95%;
+
+}
+
+.recommend{
+
+    width:95%;
+
+}
+
+}
+
+
+/* ===============================
+   작은 휴대폰
+================================ */
+
+@media (max-width:480px){
+
+.logo{
+
+    font-size:22px;
+
+}
+
+.overlay h1{
+
+    font-size:28px;
+
+}
+
+.overlay p{
+
+    font-size:15px;
+
+}
+
+.card{
+
+    padding:25px;
+
+    font-size:20px;
+
+}
+
+footer{
+
+    font-size:14px;
+
+}
+
+}
